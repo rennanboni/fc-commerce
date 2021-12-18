@@ -1,15 +1,16 @@
-import react from "react";
+import './App.css';
+import React from "react";
 
-function App(){
-
+function App() {
   return (
-    <div>
-      <h1>FC-Comerce</h1>
-      <h2>testando</h2>
+    <div className='App'>
+          <h1>Cosméticos-Plus</h1><br></br>
+          <input type="text" placeholder="buscar"></input>
     </div>
-  )
-  
+  );
 }
+
+
 
 
 export default App;
